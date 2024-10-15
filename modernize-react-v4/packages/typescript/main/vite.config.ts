@@ -9,7 +9,7 @@ export default defineConfig({
     base: '/modernize-react-v4/packages/javascript/main/',
     resolve: {
         alias: {
-            src: resolve(__dirname, 'src'),
+            @: resolve(__dirname, 'src'),
         },
     },
     esbuild: {
