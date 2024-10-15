@@ -6,6 +6,7 @@ import svgr from '@svgr/rollup';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/modernize-react-v4/packages/javascript/main/',
   resolve: {
     alias: {
       src: resolve(__dirname, 'src'),
